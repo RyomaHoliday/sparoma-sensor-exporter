@@ -1,0 +1,10 @@
+[Unit]
+Description=Prometheus Exporter for Sparoma Sensor
+Documentation=https://github.com/RyomaHoliday/sparoma-sensor-exporter
+
+[Service]
+Restart=always
+ExecStart=/opt/sparoma-sensor-exporter/.venv/bin/python /opt/sparoma-sensor-exporter/sparoma-sensor-exporter.py <DEVICE_ID> <DEVICE_KEY>
+
+[Install]
+WantedBy=multi-user.target
