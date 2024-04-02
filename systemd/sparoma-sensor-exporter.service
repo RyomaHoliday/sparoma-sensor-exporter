@@ -4,7 +4,7 @@ Documentation=https://github.com/RyomaHoliday/sparoma-sensor-exporter
 
 [Service]
 Restart=always
-ExecStart=/opt/sparoma-sensor-exporter/.venv/bin/python /opt/sparoma-sensor-exporter/sparoma-sensor-exporter.py <DEVICE_ID> <DEVICE_KEY>
+ExecStart=/opt/sparoma-sensor-exporter/.venv/bin/python /opt/sparoma-sensor-exporter/sparoma-sensor-exporter.py
 
 [Install]
 WantedBy=multi-user.target
