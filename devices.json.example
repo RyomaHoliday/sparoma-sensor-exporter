@@ -1,0 +1,10 @@
+[
+  {
+    "id": "your-device-id-here",
+    "ip": "192.168.1.xxx",
+    "key": "your-16-char-key",
+    "version": "3.3",
+    "model": "PTH8",
+    "product_name": "Sparoma PTH-8 Sensor"
+  }
+]

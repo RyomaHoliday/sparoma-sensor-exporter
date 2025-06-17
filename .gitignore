@@ -160,8 +160,16 @@ cython_debug/
 #.idea/
 
 
-# tinytuya
+# tinytuya and sensitive device configuration
 snapshot.json
 tinytuya.json
 tuya-raw.json
 devices.json
+devices_*.json
+device_scanner.py
+device_probe.py
+
+# OS and IDE
+.DS_Store
+.vscode/
+.idea/
